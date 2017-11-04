@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_1">
+
+        <Button
+            android:text="학습 종료"
+            android:layout_width="80.3dp"
+            android:layout_height="26.7dp"
+            android:id="@+id/exit"
+            android:onClick="onClick"
+            android:background="@drawable/bt_close"
+            android:textSize="12sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="16.3dp"
+            android:layout_marginRight="263.3dp"
+            android:textColor="#3d4f6e"/>
+
+        <ImageButton
+            android:layout_width="270dp"
+            android:layout_height="224.7dp"
+            android:src="@drawable/icon_ship"
+            android:id="@+id/ship"
+            android:scaleType="centerInside"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="238.7dp"
+            android:layout_marginLeft="66.3dp"
+            android:layout_marginRight="23.7dp" />
+
+        <ImageButton
+            android:layout_width="195.3dp"
+            android:layout_height="102dp"
+            android:src="@drawable/icon_shark"
+            android:id="@+id/shark"
+            android:scaleType="centerInside"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="36dp"
+            android:layout_marginLeft="162dp"
+            android:layout_marginRight="2.7dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="112dp"
+                android:layout_height="75dp"
+                android:src="@drawable/icon_fish_orange"
+                android:id="@+id/fish_orange"
+                android:scaleType="centerInside"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="22.7dp"
+                android:layout_marginRight="112dp"/>
+
+            <ImageButton
+                android:layout_width="85.3dp"
+                android:layout_height="58.7dp"
+                android:src="@drawable/icon_fish_blue"
+                android:id="@+id/fish_blue"
+                android:scaleType="centerInside"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="72.3dp"
+                android:layout_marginRight="28dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="126.3dp"
+                android:layout_height="157.7dp"
+                android:src="@drawable/icon_jellyfish"
+                android:id="@+id/jellyfish"
+                android:scaleType="centerInside"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="82dp"
+                android:layout_marginLeft="12.3dp"
+                android:layout_marginRight="62.7dp"/>
+
+            <ImageButton
+                android:layout_width="150.3dp"
+                android:layout_height="120dp"
+                android:src="@drawable/icon_octopus"
+                android:id="@+id/octopus"
+                android:scaleType="centerInside"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="51.3dp"
+                android:layout_marginRight="8.3dp"/>
+            </LinearLayout>
+        <ImageButton
+            android:layout_width="105.7dp"
+            android:layout_height="95.7dp"
+            android:src="@drawable/icon_shell"
+            android:id="@+id/shell"
+            android:scaleType="centerInside"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="123dp"
+            android:layout_marginLeft="102dp"
+            android:layout_marginRight="152.3dp" />
+        <Button
+            android:text="학습 시작하기"
+            android:layout_width="177.7dp"
+            android:layout_height="60.7dp"
+            android:src="@drawable/bt_next"
+            android:id="@+id/study_start"
+            android:onClick="onClick"
+            android:background="@drawable/bt_close"
+            android:textSize="22sp"
+            android:layout_marginTop="77dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginRight="92.3dp"
+            android:layout_marginBottom="62.3dp"
+            android:textColor="#3d4f6e"
+            />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

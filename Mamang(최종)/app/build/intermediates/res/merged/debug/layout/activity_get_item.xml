@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ggg.testapi.GetItemActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:id = "@+id/back"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="58dp"
+        android:layout_gravity="center_horizontal"
+        android:id= "@+id/circle"
+        android:background="@drawable/circle"/>
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/boat"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="240dp"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <FrameLayout
+            android:layout_width="100dp"
+
+            android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="100dp"
+            android:background="@drawable/square"
+            android:layout_height="match_parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="틀렸어요"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="15dp"
+            android:textSize="50sp"
+            android:text="2"
+            android:textColor="#3d4f6e"
+            android:id="@+id/fail"/>
+        </FrameLayout>
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="match_parent" />
+        <FrameLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:background="@drawable/square"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="맞았어요"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="15dp"
+                android:textSize="50sp"
+                android:text="2"
+                android:textColor="#3d4f6e"
+                android:id="@+id/success"/>
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="370dp"
+        android:background="@drawable/again"/>
+
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_marginTop="410dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <ScrollView
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:id="@+id/layout"
+                android:orientation="vertical">
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+</FrameLayout>
