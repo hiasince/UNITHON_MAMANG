@@ -6,9 +6,9 @@ Voice recognition and voice synthesis API enables children to take fun, spontane
 
 ## Preview Image
 
-<img src="https://github.com/hiasince/UNITHON_MAMANG/blob/master/image/2.png" width="200"><img src="https://github.com/hiasince/UNITHON_MAMANG/blob/master/image/5.png" width="200"><img src="https://github.com/hiasince/UNITHON_MAMANG/blob/master/image/1.png" width="200">
-<img src="https://github.com/hiasince/UNITHON_MAMANG/blob/master/image/3.png" width="200">
-<img src="https://github.com/hiasince/UNITHON_MAMANG/blob/master/image/4.png" width="200">
+<img src="https://github.com/hiasince/UNITHON_MAMANG/blob/master/image/2.png" width="400" height="400"><img src="https://github.com/hiasince/UNITHON_MAMANG/blob/master/image/5.png" width="200" height="400"><img src="https://github.com/hiasince/UNITHON_MAMANG/blob/master/image/1.png" width="200" height="400">
+<img src="https://github.com/hiasince/UNITHON_MAMANG/blob/master/image/3.png" width="400" height="400">
+<img src="https://github.com/hiasince/UNITHON_MAMANG/blob/master/image/4.png" width="400" height="400">
 
 
 ## More Description
